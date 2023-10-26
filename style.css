@@ -49,3 +49,8 @@ p{
     display: table;
     clear:both;
 }
+img{
+    width: 200px;
+    height:auto;
+    float:left;
+}
