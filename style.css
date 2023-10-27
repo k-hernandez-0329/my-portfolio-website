@@ -33,8 +33,8 @@ h2{
     color: peachpuff;
 }
 
-p{
-    text-align: center;
+#about {
+    padding-bottom: 200px;
 }
 
 .column {
