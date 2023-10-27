@@ -63,9 +63,26 @@
             <div class="column">More to come!</div>
         </div>
         
+        <div class="container" id="contact">
+            <form action="action_page.php">
+                <label for="name"></label>
+                <input type="text" id="name" name="firstandlastname" placeholder="Name">
+
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Email">
+
+                <label for="subject"></label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
 
 
-        <button onclick= "topFunction()" id="myBtn" title="Go to top">Return to top</button>
+            </form>
+        </div>
+
+
+
+        <button onclick= "topFunction()" id="myBtn" title="Go to top">^</button>
         <script src="script.js"></script>
     </body>
 </html>
