@@ -2,11 +2,34 @@ body {
     background: white;
 }
 
+.header h1 {
+    font-size: 85px;
+    color: white;
+    text-align: center;
+
+}
+
+.header h3 {
+    font-size: 35px;
+    color: white;
+}
+
+#header-name {
+    background: rgba(232, 127, 198, 0.1);
+    padding: 30px;
+    width: 900px;
+    margin: auto;
+    
+}
+
 .header {
     text-align: center;
-    padding-top: 300px;
-    padding-bottom: 300px;
-    background-color: azure;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-image: url("https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h4{
     font-size: 25px;
@@ -20,26 +43,29 @@ h2{
 .topnav{
     text-align: center;
     overflow: hidden;
+    background-color: #002144;
 }
 .topnav a{
     float: center;
-    color: palevioletred;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     font-size: 17px;
 }
 .topnav a:hover {
-    background-color: coral;
-    color: peachpuff;
+    background-color: rgb(8, 8, 101);
+    color: lavenderblush;
 }
 
 #about {
+    padding-top: 50px;
     padding-bottom: 200px;
+    text-align: center;
 }
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 30%;
     background-color: white;
     font-size: larger;
     text-align: center;
@@ -47,13 +73,20 @@ h2{
 .row:after{
     content:"";
     display: table;
-    clear:both;
+    clear: both;
 }
 img{
     width: 200px;
     height:auto;
-    float:left;
+    float:center;
 }
+
+
+#pastry, #student, #more {
+    border-style: solid;
+    border-width: 1px 0.5px;
+}
+
 
 #myBtn {
     display: none;
@@ -103,4 +136,13 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
 }

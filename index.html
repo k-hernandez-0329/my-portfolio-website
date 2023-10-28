@@ -2,11 +2,12 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>My Personal Website</title>
 
     <style>
         body{
-            font-family: 'Times New Roman', Times, serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
     </style>
     </head>
@@ -18,13 +19,16 @@
         </div>
         
         <div class="header">
-            <h1>Karen Hernandez</h1>
-            <h3>Flatiron Student/Former Pastry Cook</h3>
+           <div id="header-name">
+                <h1>Karen Hernandez</h1>
+                <h3>Flatiron Student/Former Pastry Cook</h3>
+           </div>
+            
            
         </div>
 
         
-        <div id="about" class="topnav">
+        <div id="about">
             <h4>About Me</h4>  
             <p>
                 I am in a current journey of changing careers from the Hospitality Industry to becoming apart of the Tech Industry as a Software Engineer.<br>My previous work was concentrated on French Patisserie and home baked goods.
@@ -33,7 +37,7 @@
          
          
          <div class="row">
-            <div class="column">Former Pastry Work
+            <div class="column" id="pastry"><strong>Pastry Work</strong>
                <p> My previous work was heavily concentrated in French pastries and home baked goods.</p>
                <img src="https://drive.google.com/uc?export=view&id=1MspL5jXMYAPLi9NRH5XE1rKIXZooF-I7" 
                     alt="Celebration Cheesecake"
@@ -53,14 +57,16 @@
             </div>
             
             
-            <div class="column">Student Software Engineer
+            <div class="column" id="student"><strong>Software Engineer</strong> 
                 <p>As a student I am currently learning languages and various Developer Tools</p><br>
                 <p>Languages I am learning:</p>
                 <p>JavaScript, HTML, CSS, CLI</p><br>
                 <p>Developer Tools:</p>
                 <p>Terminal, GitHub, Visual Studio </p>
             </div>
-            <div class="column">More to come!</div>
+            <div class="column"id="more"><strong>More to come!</strong>
+                <p>placeholder</p>
+            </div>
         </div>
         
         <div class="container" id="contact">
@@ -80,7 +86,11 @@
             </form>
         </div>
 
-
+        
+        <div class="footer">
+            <p>placeholder</p>
+            <a href="https://github.com/k-hernandez-0329" class="fa fa-github" style="font-size:36px"></a>
+        </div>
 
         <button onclick= "topFunction()" id="myBtn" title="Go to top">^</button>
         <script src="script.js"></script>
