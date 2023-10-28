@@ -58,33 +58,56 @@ h2{
 }
 
 #about {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 200px;
     text-align: center;
 }
 
 .column {
-    float: left;
+    float: inline-start;
     width: 30%;
     background-color: white;
     font-size: larger;
     text-align: center;
+    height: 700px;
+    
+   
+    
 }
+
+.row {
+    margin-left: 30px;
+    margin-right: 10px;
+    padding-bottom: 300px;
+}
+
 .row:after{
     content:"";
     display: table;
     clear: both;
+    
 }
-img{
-    width: 200px;
-    height:auto;
+
+.column img{
+    max-width: 35%;
+    min-width: 30%;
+    min-height: 20%;
+    max-height: 40%;
     float:center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+    
 }
+
 
 
 #pastry, #student, #more {
     border-style: solid;
     border-width: 1px 0.5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -92,16 +115,16 @@ img{
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 10px;
     z-index: 99;
     border: none;
     outline: none;
-    background-color: orchid;
+    background-color: purple;
     color: white;
     cursor: pointer;
-    padding: 15px;
+    padding: 10px;
     border-radius: 150px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #myBtn:hover {
@@ -120,12 +143,13 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: lightsalmon;
+    background-color: purple;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 40px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
 }
 
 input[type=submit]:hover {
@@ -136,13 +160,16 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    width: 500px;
+    margin: auto;
+    
 }
 
 .footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: aquamarine;
+    background-color: #002144;
     color: white;
     text-align: center;
 }
